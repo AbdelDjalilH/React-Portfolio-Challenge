@@ -1,0 +1,68 @@
+
+.Home-Container{
+    background-color: rgba(85, 72, 72, 0.81);
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3.5rem;
+}
+
+.photo-description{
+display: flex;
+flex-direction: row;
+gap: 7rem;
+margin-left: 12rem;
+margin-right: 12rem;
+
+}
+img{
+    border-radius: 50%;
+}
+.my-description{
+    border: solid;
+    text-align: justify;
+
+}
+
+ p{font-size:20px;
+padding-left: 1rem;
+padding-right: 1rem;}
+ 
+ .skills{
+    margin-right: 12rem;
+    margin-left: 12rem;
+    margin-top: 5rem;
+    border: solid;
+ }
+
+ h2{display: flex;
+    justify-content : center;
+font-size:  30px;}
+
+li{
+    font-size: 25px;
+    list-style: none;
+    
+}
+.ContactButton-container{
+    display: flex;
+    margin-top: 8rem ;
+    border-radius: 12px;
+    width: 17rem;
+    height: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45vw;
+    background-color: blue;
+    
+    
+    
+}
+.link-button{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
