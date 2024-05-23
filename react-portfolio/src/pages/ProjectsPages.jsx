@@ -1,11 +1,16 @@
-import Navbar from "../components/Navbar";
+
+import ProjectList from "../components/ProjectList";
 
 function ProjectsPages () {
+   
+
 
 
     return(
         <div>
-            <Navbar/>
+            
+            <ProjectList/>
+            <h1></h1>
 
         </div>
     )

@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import '../styles/HomePage.scss'
 import Avatar from "../assets/images/Avatar.jpeg"
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import Footer from "../components/Footer";
 
 function HomePage () {
@@ -9,7 +9,7 @@ function HomePage () {
 
     return(
     <div className="Home-Container">
-        <Navbar/>
+        
         <h1>Mon portfolio</h1>
       <div className="photo-description">
         <img className="my-photo" src={Avatar} alt="Avatar"  />
@@ -35,7 +35,7 @@ function HomePage () {
         <Link className="link-button" to ="/ContactPage">Appuyez pour me contacter</Link>
        </div>
        <div className="footer-container">
-       <Footer/>
+       
 
        </div>
     </div>
